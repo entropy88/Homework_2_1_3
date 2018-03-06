@@ -1,5 +1,7 @@
 package com.example.entropy.gag9;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -27,11 +29,8 @@ public class MainActivity extends AppCompatActivity {
         ItemAdapter adapter = new ItemAdapter (data);
         recyclerView.setAdapter(adapter);
 
-        ImageButton commentsButton= (ImageButton)findViewById(R.id.img_comment);
-
-
-
     }
+
 
 
 }

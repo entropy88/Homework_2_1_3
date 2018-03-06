@@ -19,6 +19,4 @@ public class Publicity extends AllTheStuff {
     public String getImageUrl() {
         return imageUrl;
     }
-
-
 }

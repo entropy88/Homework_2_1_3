@@ -52,10 +52,9 @@
         android:orientation="horizontal">
 
         <ImageButton
-
             android:id="@+id/img_up"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
             android:layout_centerVertical="true"
             android:src="@mipmap/ic_arrow_upward_black_24dp"
             android:layout_margin="8dp"
@@ -65,8 +64,8 @@
         <ImageButton
             android:id="@+id/img_down"
             android:layout_toRightOf="@+id/img_up"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
             android:layout_centerVertical="true"
             android:src="@mipmap/ic_arrow_downward_black_24dp"
             android:layout_margin="8dp"
@@ -76,8 +75,8 @@
         <ImageButton
 
             android:id="@+id/img_comment"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/img_down"
             android:src="@mipmap/ic_comment_black_24dp"
@@ -89,8 +88,8 @@
 
         <ImageButton
             android:id="@+id/img_more"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_width="48dp"
             android:layout_centerVertical="true"
             android:layout_toRightOf="@+id/img_comment"
             android:src="@mipmap/ic_more_vert_black_24dp"

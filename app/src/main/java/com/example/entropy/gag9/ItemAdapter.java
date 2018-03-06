@@ -42,7 +42,7 @@ class ItemAdapter extends RecyclerView.Adapter<BaseViewHolder> {
             vh = new PostsViewHolder(view);
 
         } else {
-            if (viewType == TYPE_POST) {
+            if (viewType == TYPE_PUBLICITY) {
                 View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.publicity_layout, parent, false);
                 vh = new PublicityViewHolder(view);
             }
